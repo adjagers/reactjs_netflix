@@ -1,0 +1,141 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.movie {
+  margin: 4px;
+  height: 300px;
+  width: 15%;
+}
+
+#videoBG {
+  position: fixed;
+  z-index: -1;
+}
+
+.main-header {
+  width: 100%;
+}
+
+.netflix-brand {
+  width: 1%;
+  color: gray;
+}
+.nav-link {
+  font-size: 15px;
+}
+
+.nav-link {
+    color: white!important;
+}
+ .bg-light {
+  background: transparent!important;
+}
+
+
+.logo {
+  width: 120px;
+}
+.brand {
+
+  width: 20px;
+}
+.brand p {
+    font-size: 10px;
+}
+
+.billboard-icon {
+  width: 20px;
+  margin-right: 10px;
+}
+.flat-button {
+  padding: 0.75em 2.3em;
+  border-radius: 0.2vw;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-width: 0;
+  background: rgba(51, 51, 51, 0.4);
+}
+.flat-button:hover {
+  background-color: red;
+}
+
+.bg {
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  background-image: url('../src/assets/images/stranger-things2.jpg');
+}
+.billboard-description {
+  width: 30%;
+  font-size: 1.4vw;
+}
+
+.primary-navigation {
+  height: 41px;
+  width: 50%;
+  display: inline-flex;
+  line-height: 41px;
+  background: black;
+}
+.secondary-navigation {
+  display: inline-flex;
+}
+
+nav li a {
+    color: #fff;
+    font-size: 15px;
+}
+
+nav ul {
+  width: 50%;
+  font-size: 15px;
+  float: left;
+  padding-top: 0;
+  margin-top: 0;
+  vertical-align: top;
+  display: inline-flex;
+}
+
+nav li {
+  margin-left: 18px;
+  list-style-type: none;
+}
+nav li a:hover {
+cursor: pointer;
+text-decoration: none;
+color:  #b3b3b3;
+}
+
+nav li a:active {
+  font-weight: bold;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: green;
+}
+.App-logo {
+  float: left;
+  display: inline-flex;
+  width: 8%;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
